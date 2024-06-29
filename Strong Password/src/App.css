@@ -6,11 +6,6 @@
     box-sizing: border-box;
 }
 body{
-    /* width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
     background-color: rgb(164, 126, 199);
 }
 .password-generator{
