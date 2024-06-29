@@ -1,0 +1,86 @@
+*{
+  background-color: rgb(59, 72, 116);
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  color: #ccc;
+
+}
+.container{
+  width: 75vw;
+  border: solid black;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 4px solid rebeccapurple;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 20px;
+}
+.intro{
+  text-align: center;
+  color: rgb(233, 233, 243);
+  text-transform: uppercase;
+  font-weight: 40px;
+  font-size: 20px;
+}
+  
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.gender {
+  margin-bottom: 10px;
+}
+
+.gender label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.gender input {
+  margin-right: 5px;
+  color: rgb(206, 38, 77);
+}
+
+.select {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.select option {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
